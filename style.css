@@ -446,8 +446,13 @@ nav.fixed{
     width: 290px;
     height: auto;
     /* background: rgba(187, 172, 255, 0.9); */
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+}
+.project_card:hover{
+    transform: translateY(-10px);
 }
 .project_img{
     width: 100%;
@@ -466,19 +471,14 @@ nav.fixed{
     letter-spacing: 0.1rem;
     margin-bottom: 1.4rem;
 }
-.project_btn{
+.preview_btn{
     width: 100%;
-    height: auto;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 1.4rem;
 }
-.case_study{
-    width: 200px;
-    height: 40px;
-}
-
 
 
 
