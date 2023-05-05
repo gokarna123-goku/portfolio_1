@@ -197,6 +197,7 @@ nav.fixed{
     font-size: 0.99rem;
     letter-spacing: 0.05rem;
     color: var(--tertiary-light);
+    margin-bottom: 1.5rem;
 }
 
 .img_section{
