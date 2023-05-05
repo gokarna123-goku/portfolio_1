@@ -84,6 +84,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 40px 150px;
+    transition: all 0.3s ease-out;
 }
 nav.fixed{
     position: fixed;
@@ -92,7 +93,8 @@ nav.fixed{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 17px 150px;
+    background: var(--bg-light);
+    padding: 15px 150px;
     border-radius: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     z-index: 9999;
