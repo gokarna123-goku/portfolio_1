@@ -388,7 +388,7 @@ nav.fixed{
 .service_box{
     width: 370px;
     height: auto;
-    padding: 15px 25px;
+    padding: 20px 25px;
     background: transparent;
     text-align: center;
     display: flex;
@@ -403,15 +403,15 @@ nav.fixed{
     background: rgba(187, 172, 255, 0.9);
 }
 .service_icon{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: rgba(159, 140, 247, 0.9);
     border: 2px solid rgba(227, 221, 255, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.3rem;
+    margin-bottom: 0.9rem;
 }
 .service_icon i{
     font-size: 1.2rem;
@@ -422,8 +422,18 @@ nav.fixed{
     font-weight: 600;
     color: var(--primary-light);
     letter-spacing: 0.1rem;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.7rem;
 }
+.read_more{
+    outline: none;
+    border: none;
+    color: var(--secondary-light);
+    background: transparent;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 
 
 
