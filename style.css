@@ -228,6 +228,10 @@ nav.fixed{
     color: var(--primary-dark);
 }
 
+.talk_btn{
+    padding: 7px 40px;
+}
+
 .img_section{
     width: 40%;
     height: 80vh;
