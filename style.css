@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
 a{
@@ -12,6 +13,45 @@ a{
 li{
     list-style: none;
 }
+
+/* Root */
+:root{
+    /* Light Mode color Code */
+    --bg-light: #f1f1f1;
+    --primary-light: #181818;
+    --secondary-light: #1d55c6;
+    --tertiary-light: #505050;
+
+    /* Dark Model Color */
+    --bg-dark: #313131;
+    --primary-dark: #fbfbfb;
+    --secondary-light: #1d55c6;
+    --tertiary-light: #a7a7a7;
+
+    /* Font Size */
+    --desc: 1.0rem;
+}
+
+.btn{
+    width: auto;
+    height: auto;
+    padding: 5px 13px;
+    background: var(--secondary-light);
+}
+
+
+
+/* Main Section */
+.main_section{
+    width: 100%;
+    min-height: 100vh;
+    background: #f1f1f1;
+    padding: 40px 150px;
+}
+
+
+
+
 
 
 /* End of The Code */
