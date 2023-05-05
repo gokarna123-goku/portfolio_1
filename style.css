@@ -369,7 +369,7 @@ nav.fixed{
     justify-content: space-between;
     gap: 1.3rem;
     background: rgba(227, 221, 255, 0.9);
-    padding: 40px 150px;
+    padding: 60px 150px;
     border-radius: 0;
 }
 .service_data{
@@ -425,8 +425,21 @@ nav.fixed{
 .project_section{
     width: 100%;
     height: auto;
-    padding: 40px 150px;
+    padding: 60px 150px;
     background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.projects_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 
