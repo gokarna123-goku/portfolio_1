@@ -257,13 +257,39 @@ nav.fixed{
 }
 
 /* About Us Section */
+.about_section{
+    width: 100%;
+    height: auto;
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.7rem;
+}
 
 .tag{
-    width: auto;
+    max-width: 120px;
     height: auto;
-    padding: 8px 17px;
-    border: 2px solid var(--tertiary-light);
+    padding: 5px 15px;
+    border: 1px solid var(--tertiary-light);
     background: transparent;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-light);
+    margin-bottom: 1.5rem;
+}
+.about_img{
+    width: 42%;
+    height: 60vh;
+}
+.about_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_data{
+    width: 50%;
+    height: auto;
 }
 
 
