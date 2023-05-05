@@ -443,7 +443,7 @@ nav.fixed{
     gap: 1.4rem;
 }
 .project_card{
-    width: 300px;
+    width: 290px;
     height: auto;
     /* background: rgba(187, 172, 255, 0.9); */
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
