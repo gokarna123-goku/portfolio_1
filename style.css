@@ -268,11 +268,6 @@ nav.fixed{
 }
 
 .tag{
-    /* max-width: 120px;
-    height: auto;
-    padding: 5px 15px; */
-    /* border: 1px solid var(--tertiary-light);
-    background: transparent; */
     font-size: 2.7rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
@@ -296,19 +291,19 @@ nav.fixed{
     right: 0;
     width: auto;
     height: auto;
-    padding: 30px 35px;
+    padding: 20px 35px;
     background: var(--secondary-dark);
     font-size: 1.2rem;
     font-weight: 500;
-    color: var(--tertiary-light);
+    color: var(--primary-dark);
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    row-gap: 0.7rem;
+    row-gap: 0.2rem;
 }
 .experience{
-    font-size: 4.5rem;
+    font-size: 4.8rem;
     font-weight: bolder;
     color: var(--secondary-light);
     display: flex;
@@ -323,6 +318,13 @@ nav.fixed{
 .about_data{
     width: 50%;
     height: auto;
+}
+.desc{
+    font-size: 0.99rem;
+    letter-spacing: 0.05rem;
+    color: var(--tertiary-light);
+    line-height: 1.5rem;
+    margin-bottom: 1.4rem;
 }
 
 
