@@ -439,10 +439,11 @@ nav.fixed{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1.4rem;
 }
 .project_card{
-    width: 370px;
+    width: 300px;
     height: auto;
     /* background: rgba(187, 172, 255, 0.9); */
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
