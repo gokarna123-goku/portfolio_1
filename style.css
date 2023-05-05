@@ -280,6 +280,7 @@ nav.fixed{
     margin-bottom: 1.5rem;
 }
 .about_img{
+    position: relative;
     width: 40%;
     height: 65vh;
 }
@@ -288,6 +289,18 @@ nav.fixed{
     height: 100%;
     object-fit: cover;
     object-position: top;
+}
+.experience_box{
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--tertiary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about_data{
