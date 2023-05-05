@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome cdn link -->
     <script src="https://kit.fontawesome.com/676eaf438a.js" crossorigin="anonymous"></script>
+    <!-- AOS CSS Cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom css link -->
     <link rel="stylesheet" href="./style.css">
     <title>Home | Goku App</title>
@@ -40,35 +42,37 @@
         <!-- Hero Section -->
         <div class="hero_section">
             <div class="personal_data">
-                <div class="intro">Hey, there 👋</div>
-                <div class="fullname">I'm Gokarna Adhikari</div>
-                <div class="position">Professional Web Designer</div>
-                <div class="my_bio">
+                <div class="intro" data-aos="fade-up-right" data-aos-duration="700">Hey, there 👋</div>
+                <div class="fullname" data-aos="fade-up-right" data-aos-duration="800">I'm Gokarna Adhikari</div>
+                <div class="position" data-aos="fade-up-right" data-aos-duration="900">Professional Web Designer</div>
+                <div class="my_bio" data-aos="fade-up-right" data-aos-duration="1000">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sed quasi in impedit totam sit.
                     Accusamus, aut perferendis! Vel in illo unde, dolor provident iusto natus maxime architecto
                     molestias, saepe distinctio dignissimos amet rerum laborum quod ipsam mollitia accusamus tempora
                     nemo? Eligendi ab adipisci explicabo quisquam harum officia dolores commodi.
                 </div>
                 <div class="social_section">
-                    <a href="#">
+                    <a href="#" data-aos="fade-up-right" data-aos-duration="1400">
                         <div class="social_box"><i class="fa-brands fa-github"></i></div>
                     </a>
-                    <a href="#">
+                    <a href="#" data-aos="fade-up-right" data-aos-duration="1300">
                         <div class="social_box"><i class="fa-brands fa-instagram"></i></div>
                     </a>
-                    <a href="#">
+                    <a href="#" data-aos="fade-up-right" data-aos-duration="1200">
                         <div class="social_box"><i class="fa-brands fa-linkedin-in"></i></div>
                     </a>
-                    <a href="#">
+                    <a href="#" data-aos="fade-up-right" data-aos-duration="1100">
                         <div class="social_box"><i class="fa-brands fa-youtube"></i></div>
                     </a>
                 </div>
                 <div class="btn_group">
-                    <button class="btn talk_btn">Let's Talk <i class="fa-solid fa-arrow-right"></i> </button>
-                    <button class="btn download">Download CV</button>
+                    <button class="btn talk_btn" data-aos="fade-up-right" data-aos-duration="1600">
+                        Let's Talk <i class="fa-solid fa-arrow-right"></i> 
+                    </button>
+                    <button class="btn download" data-aos="fade-up-right" data-aos-duration="1700">Download CV</button>
                 </div>
             </div>
-            <div class="img_section">
+            <div class="img_section" data-aos="fade-up-left" data-aos-duration="1000">
                 <img src="https://images.unsplash.com/photo-1668376808995-ab898a7a80b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                     alt="My Picture" class="my_pic">
             </div>
@@ -222,7 +226,8 @@
                             <input type="email" class="input form_box" placeholder="Email *">
                             <input type="text" class="input form_box" placeholder="Subject *">
                         </div>
-                        <textarea class="textarea form_box" cols="30" rows="4" placeholder="Project Description"></textarea>
+                        <textarea class="textarea form_box" cols="30" rows="4"
+                            placeholder="Project Description"></textarea>
                         <button class="btn submit_btn">Submit</button>
                     </form>
                 </div>
@@ -234,20 +239,17 @@
         </footer>
     </div>
 
+    <!-- Custom JavaScript link -->
     <script src="./main.js"></script>
 
-    <!-- <script>
-        window.addEventListener('scroll', function () {
-            var navbar = document.querySelector('nav');
-            var scrollY = window.scrollY;
+    <!-- AOS JavaScript Cdn link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-            if (scrollY >= 80) {
-                navbar.classList.add('fixed');
-            } else {
-                navbar.classList.remove('fixed');
-            }
-        });
-    </script> -->
+    <!-- AOS Initialized -->
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
 

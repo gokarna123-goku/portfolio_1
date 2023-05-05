@@ -9,6 +9,7 @@
     box-sizing: border-box;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
     /* font-family: 'Poppins', sans-serif; */
 }
 
@@ -597,6 +598,12 @@ nav.fixed{
     color: var(--secondary-light);
 }
 
+
+/* Responsive to all Devices */
+/* for max-width 1024px */
+@media screen and ( max-width: 1024px ) {
+    
+}
 
 
 
