@@ -27,9 +27,6 @@ li{
     --primary-dark: #fbfbfb;
     --secondary-light: #1d55c6;
     --tertiary-light: #a7a7a7;
-
-    /* Font Size */
-    --desc: 1.0rem;
 }
 
 .btn{
@@ -37,6 +34,12 @@ li{
     height: auto;
     padding: 5px 13px;
     background: var(--secondary-light);
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: var(--primary-light);
+    outline: none;
+    border: 2px solid var(--secondary-light);
+    cursor: pointer;
 }
 
 
