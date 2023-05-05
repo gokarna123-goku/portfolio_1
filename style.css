@@ -466,13 +466,17 @@ nav.fixed{
     letter-spacing: 0.1rem;
     margin-bottom: 1.4rem;
 }
-.btn_group{
+.project_btn{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1.4rem;
+}
+.case_study{
+    width: 200px;
+    height: 40px;
 }
 
 
