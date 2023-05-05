@@ -93,6 +93,16 @@ li{
     align-items: center;
     column-gap: 1.4rem;
 }
+.logo_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.0rem;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .nav_items ul{
     display: inline-block;
 }
