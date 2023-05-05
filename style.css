@@ -367,20 +367,20 @@ nav.fixed{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1.3rem;
     background: rgba(227, 221, 255, 0.9);
     padding: 40px 150px;
     border-radius: 0;
 }
 .service_data{
-    width: 39%;
+    width: 35%;
     height: auto;
 }
 .services_section{
-    width: 55%;
+    width: 60%;
     width: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: end;
     flex-wrap: wrap;
     gap: 2.2rem;
@@ -390,11 +390,6 @@ nav.fixed{
     height: auto;
     padding: 20px 25px;
     background: transparent;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     border: 2px solid rgba(187, 172, 255, 0.9);
     cursor: pointer;
     transition: 0.3s ease-out;
@@ -414,7 +409,7 @@ nav.fixed{
     margin-bottom: 0.9rem;
 }
 .service_icon i{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--secondary-light);
 }
 .service_title{
