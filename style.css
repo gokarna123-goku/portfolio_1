@@ -582,6 +582,21 @@ nav.fixed{
     height: 40px;
 }
 
+.footer_section{
+    width: 100%;
+    height: auto;
+    padding: 60px 150px;
+    background: var(--primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: var(--tertiary-light);
+}
+.footer_section a{
+    color: var(--secondary-light);
+}
+
 
 
 
