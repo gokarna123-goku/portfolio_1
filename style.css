@@ -285,22 +285,39 @@ nav.fixed{
     height: 65vh;
 }
 .about_img img{
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     object-position: top;
 }
 .experience_box{
+    position: absolute;
+    bottom: 4rem;
+    right: 0;
     width: auto;
     height: auto;
-    padding: 10px 20px;
+    padding: 30px 35px;
+    background: var(--secondary-dark);
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--tertiary-light);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    row-gap: 0.7rem;
+}
+.experience{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    color: var(--secondary-light);
+    display: flex;
+    align-items: flex-start;
+}
+.experience span{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: var(--secondary-light);
 }
 
 .about_data{
