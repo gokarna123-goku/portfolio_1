@@ -372,6 +372,31 @@ nav.fixed{
     padding: 40px 150px;
     border-radius: 0;
 }
+.service_data{
+    width: 39%;
+    height: auto;
+}
+.services_section{
+    width: 55%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+}
+.service_box{
+    width: 370px;
+    height: auto;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgba(187, 172, 255, 0.9);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.service_box:hover{
+    background: rgba(187, 172, 255, 0.9);
+}
 
 
 
