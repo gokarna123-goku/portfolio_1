@@ -326,6 +326,13 @@ nav.fixed{
     line-height: 1.5rem;
     margin-bottom: 1.4rem;
 }
+.work_detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 1.7rem;
+}
 
 
 
