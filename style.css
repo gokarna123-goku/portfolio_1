@@ -62,6 +62,19 @@ li{
     justify-content: space-between;
 }
 
+.nav_items{
+    display: flex;
+    align-items: center;
+    column-gap: 1.4rem;
+}
+.nav_items ul{
+    display: inline-block;
+}
+.nav_items li{
+    display: inline-block;
+    gap: 1.5rem;
+}
+
 
 
 
