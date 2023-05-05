@@ -193,6 +193,11 @@ nav.fixed{
     color: var(--secondary-light);
     margin-bottom: 1.2rem;
 }
+.my_bio{
+    font-size: 0.99rem;
+    letter-spacing: 0.05rem;
+    color: var(--tertiary-light);
+}
 
 .img_section{
     width: 40%;
