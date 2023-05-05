@@ -197,13 +197,13 @@ nav.fixed{
     font-size: 0.99rem;
     letter-spacing: 0.05rem;
     color: var(--tertiary-light);
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
 }
 .social_section{
     display: flex;
     align-items: center;
     column-gap: 0.8rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.0rem;
 }
 .social_box{
     width: 30px;
