@@ -1,10 +1,15 @@
 /*  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 a{
@@ -19,7 +24,7 @@ li{
     /* Light Mode color Code */
     --bg-light: #f1f1f1;
     --primary-light: #181818;
-    --secondary-light: #FF6701;
+    --secondary-light: #f3680b;
     --tertiary-light: #505050;
 
     /* Dark Model Color */
@@ -34,7 +39,7 @@ li{
     height: auto;
     padding: 5px 13px;
     background: var(--secondary-light);
-    font-size: 1.08rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--primary-light);
     outline: none;
@@ -72,7 +77,10 @@ li{
 }
 .nav_items li{
     display: inline-block;
-    gap: 1.5rem;
+    margin-left: 1.2rem;
+}
+.nav_items li a{
+    font-size: 1.2rem;
 }
 
 
