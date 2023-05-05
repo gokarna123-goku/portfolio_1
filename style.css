@@ -104,18 +104,18 @@ li{
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--tertiary-light);
-    border-bottom: 3px solid transparent;
+    /* border-bottom: 3px solid transparent; */
     transition: 0.5s ease-out;
 }
 .nav_items li .active{
     font-weight: 500;
     color: var(--secondary-light);
-    border-bottom: 3px solid var(--secondary-light);
+    /* border-bottom: 3px solid var(--secondary-light); */
     border-radius: 0px ;
 }
 .nav_items li a:hover{
     color: var(--secondary-light);
-    border-bottom: 3px solid var(--secondary-light);
+    /* border-bottom: 3px solid var(--secondary-light); */
     border-radius: 0px ;
 }
 
@@ -123,6 +123,15 @@ li{
     display: flex;
     align-items: center;
     column-gap: 1.3rem;
+}
+.lightdark{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.lightdark i{
+    font-size: 1.2rem;
 }
 .get_quote{
     color: var(--primary-dark);
