@@ -441,6 +441,18 @@ nav.fixed{
     justify-content: center;
     gap: 1.5rem;
 }
+.project_card{
+    width: 370px;
+    height: auto;
+    background: rgba(187, 172, 255, 0.9);
+    box-shadow: 0 1px 8px rgba(187, 172, 255, 0.9);
+}
+.project_img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
