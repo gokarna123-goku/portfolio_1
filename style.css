@@ -421,6 +421,14 @@ nav.fixed{
 }
 
 
+/* Project Section */
+.project_section{
+    width: 100%;
+    height: auto;
+    padding: 40px 150px;
+    background: transparent;
+}
+
 
 
 
