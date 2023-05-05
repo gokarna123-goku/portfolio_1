@@ -204,7 +204,7 @@ nav.fixed{
     display: flex;
     align-items: center;
     column-gap: 0.8rem;
-    margin-bottom: 2.0rem;
+    margin-bottom: 2.2rem;
 }
 .social_box{
     width: 30px;
@@ -228,9 +228,19 @@ nav.fixed{
 .social_box:hover i{
     color: var(--primary-dark);
 }
+.btn_group{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.download{
+    background: transparent;
+    border: 2px solid var(--secondary-light);
+    padding: 7px 28px;
+}
 
 .talk_btn{
-    padding: 7px 40px;
+    padding: 7px 25px;
 }
 
 .img_section{
