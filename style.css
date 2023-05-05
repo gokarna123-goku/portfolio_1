@@ -314,7 +314,6 @@ nav.fixed{
     font-weight: 600;
     color: var(--secondary-light);
 }
-
 .about_data{
     width: 50%;
     height: auto;
@@ -332,10 +331,10 @@ nav.fixed{
     display: flex;
     align-items: center;
     column-gap: 1.7rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 .work_box{
-    padding: 15px 40px;
+    padding: 25px 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -355,6 +354,10 @@ nav.fixed{
 .work_title{
     font-size: 1.2rem;
     color: var(--primary-light);
+}
+.project_btn{
+    padding: 9px 40px;
+    font-size: 1.2rem;
 }
 
 
