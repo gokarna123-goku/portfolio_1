@@ -360,6 +360,18 @@ nav.fixed{
     font-size: 1.2rem;
 }
 
+/* Services Section */
+.service_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background: rgba(227, 221, 255, 0.9);
+    padding: 40px 150px;
+    border-radius: 0;
+}
 
 
 
