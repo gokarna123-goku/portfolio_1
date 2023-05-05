@@ -202,8 +202,8 @@ nav.fixed{
 .social_section{
     display: flex;
     align-items: center;
-    column-gap: 1.2rem;
-    margin-bottom: 1.3rem;
+    column-gap: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 .social_box{
     width: 30px;
