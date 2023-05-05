@@ -388,8 +388,9 @@ nav.fixed{
 .service_box{
     width: 370px;
     height: auto;
-    padding: 15px;
+    padding: 15px 25px;
     background: transparent;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,6 +416,13 @@ nav.fixed{
 .service_icon i{
     font-size: 1.2rem;
     color: var(--secondary-light);
+}
+.service_title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--primary-light);
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.1rem;
 }
 
 
