@@ -256,6 +256,16 @@ nav.fixed{
     object-position: top;
 }
 
+/* About Us Section */
+
+.tag{
+    width: auto;
+    height: auto;
+    padding: 8px 17px;
+    border: 2px solid var(--tertiary-light);
+    background: transparent;
+}
+
 
 
 
