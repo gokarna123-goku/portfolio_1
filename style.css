@@ -493,6 +493,9 @@ nav.fixed{
     padding: 60px 150px;
     border-radius: 0;
 }
+.contact_section .tag{
+    margin-bottom: 2.4rem;
+}
 .contact_box{
     width: 100%;
     height: auto;
@@ -501,8 +504,14 @@ nav.fixed{
     justify-content: space-between;
 }
 .contact_data{
-    width: 40%;
+    width: 35%;
     height: auto;
+}
+.contact_card{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgba(187, 172, 255, 0.9);
 }
 
 .form_section{
@@ -540,6 +549,10 @@ nav.fixed{
 .textarea{
     width: 100%;
     height: auto;
+}
+.submit_btn{
+    width: 170px;
+    height: 40px;
 }
 
 
