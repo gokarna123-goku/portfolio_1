@@ -333,6 +333,14 @@ nav.fixed{
     align-items: center;
     column-gap: 1.7rem;
 }
+.project_done{
+    background: rgba(159, 140, 247, 0.9);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
 
 
 
