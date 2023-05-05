@@ -73,7 +73,6 @@ li{
     width: 100%;
     min-height: 100vh;
     background: var(--bg-light);
-    padding: 30px 150px;
 }
 
 
@@ -84,8 +83,18 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: var(--bg-dark); */
-    padding: 8px 0;
+    padding: 40px 150px;
+}
+nav.fixed{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 150px;
+    border-radius: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
 }
 
 .nav_items{
@@ -96,13 +105,17 @@ li{
 .logo_section{
     display: flex;
     align-items: center;
-    column-gap: 1.0rem;
+    column-gap: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--secondary-light);
 }
 .logo{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    /* border: 1px solid var(--secondary-light); */
+    object-fit: cover;
+    object-position: center;
 }
 .nav_items ul{
     display: inline-block;
