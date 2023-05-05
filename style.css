@@ -180,6 +180,13 @@ nav.fixed{
     color: var(--primary-light);
     margin-bottom: 1.2rem;
 }
+.position{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+    color: var(--secondary-light);
+    margin-bottom: 1.2rem;
+}
 
 .img_section{
     width: 40%;
