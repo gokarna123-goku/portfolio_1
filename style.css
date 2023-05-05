@@ -9,7 +9,6 @@
     box-sizing: border-box;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
     /* font-family: 'Poppins', sans-serif; */
 }
 
@@ -74,6 +73,7 @@ li{
     width: 100%;
     min-height: 100vh;
     background: var(--bg-light);
+    overflow: hidden;
 }
 
 
