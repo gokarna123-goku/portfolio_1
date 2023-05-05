@@ -373,17 +373,17 @@ nav.fixed{
     border-radius: 0;
 }
 .service_data{
-    width: 35%;
+    width: 50%;
     height: auto;
 }
 .services_section{
-    width: 60%;
+    width: 40%;
     width: auto;
     display: flex;
     align-items: flex-start;
     justify-content: end;
     flex-wrap: wrap;
-    gap: 2.2rem;
+    gap: 1.3rem;
 }
 .service_box{
     width: 370px;
@@ -410,7 +410,7 @@ nav.fixed{
 }
 .service_icon i{
     font-size: 1.5rem;
-    color: var(--secondary-light);
+    color: var(--primary-dark);
 }
 .service_title{
     font-size: 1.4rem;
@@ -418,15 +418,6 @@ nav.fixed{
     color: var(--primary-light);
     letter-spacing: 0.1rem;
     margin-bottom: 0.7rem;
-}
-.read_more{
-    outline: none;
-    border: none;
-    color: var(--secondary-light);
-    background: transparent;
-    font-size: 1.1rem;
-    font-weight: 500;
-    cursor: pointer;
 }
 
 
