@@ -203,6 +203,29 @@ nav.fixed{
     display: flex;
     align-items: center;
     column-gap: 1.2rem;
+    margin-bottom: 1.3rem;
+}
+.social_box{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid var(--secondary-light);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-out;
+}
+.social_box:hover{
+    background: var(--secondary-light);
+}
+.social_box i{
+    font-size: 1.1rem;
+    color: var(--tertiary-light);
+    transition: 0.5s ease-out;
+}
+.social_box:hover i{
+    color: var(--primary-dark);
 }
 
 .img_section{
