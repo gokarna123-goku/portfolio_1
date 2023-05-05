@@ -100,7 +100,7 @@ nav.fixed{
 .nav_items{
     display: flex;
     align-items: center;
-    column-gap: 1.4rem;
+    column-gap: 2.2rem;
 }
 .logo_section{
     display: flex;
