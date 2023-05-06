@@ -152,6 +152,15 @@ nav.fixed{
     align-items: center;
     column-gap: 1.5rem;
 }
+/* Toggle Btn Icon */
+#toggleIcon{
+    font-size: 1.5rem;
+    color: var(--tertiary);
+    float: right;
+    line-height: 3.5rem;
+    display: none;
+}
+
 .lightdark{
     outline: none;
     border: none;
@@ -659,7 +668,7 @@ nav.fixed{
 }
 /* for max-width 915px */
 @media screen and ( max-width: 915px ) {
-    
+
 }
 
 
