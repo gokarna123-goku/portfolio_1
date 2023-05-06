@@ -668,7 +668,38 @@ nav.fixed{
 }
 /* for max-width 915px */
 @media screen and ( max-width: 915px ) {
-
+    nav ul{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background: rgba(31, 31, 31, 0.99);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 0px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.68s ease-out;
+        z-index: 9999;
+    }
+    nav li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #toggleIcon{
+        display: block;
+    }
+    nav a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    nav ul.showNavbar{
+        left: 0;
+    }
 }
 
 

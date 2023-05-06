@@ -12,4 +12,12 @@ window.addEventListener("scroll", function () {
 });
 
 
+// Toggle
+$(document).ready(function () {
+  $("#toggleIcon").click(function () {
+    $("ul").toggleClass("showNavbar");
+  });
+});
+
+
 // End
