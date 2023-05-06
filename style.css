@@ -759,6 +759,43 @@ nav.fixed{
         flex-wrap: wrap;
     }
 }
+/* for max-width 475px */
+@media screen and ( max-width: 475px ) {
+    nav.fixed {
+        padding: 8px 30px;
+    }
+    .nav_button {
+        display: none;
+    }
+    .fullname {
+        font-size: 2.1rem;
+    }
+    .position {
+        font-size: 1.3rem;
+    }
+    .my_bio {
+        font-size: 0.79rem;
+    }
+    .talk_btn {
+        padding: 7px 13px;
+    }
+    .download {
+        padding: 7px 13px;
+    }
+    .desc {
+        font-size: 0.89rem;
+        line-height: 1.1rem;
+    }
+    .work_detail {
+        column-gap: 1.3rem;
+    }
+    .work_box {
+        padding: 15px 11px;
+    }
+    .input_group {
+        flex-wrap: wrap;
+    }
+}
 
 
 
