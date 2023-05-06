@@ -605,6 +605,10 @@ nav.fixed{
     nav {
         padding: 20px 60px;
     }
+    nav.fixed {
+        padding: 20px 60px;
+    }
+
     .hero_section {
         padding: 30px 60px;
     }
@@ -619,10 +623,35 @@ nav.fixed{
     }
     .service_section {
         padding: 30px 60px;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+        text-align: center;
     }
     .service_data {
         width: 100%;
+    }
+    .services_section {
+        width: 100%;
+        justify-content: center;
+        text-align: start;
+        gap: 2.0rem;
+    }
+    .service_box {
+        width: 420px;
+    }
+    .project_section {
+        padding: 30px 60px;
+    }
+    .projects_box {
+        gap: 2.5rem;
+    }
+    .project_card {
+        width: 370px;
+    }
+    .contact_section {
+        padding: 30px 60px;
+    }
+    .contact_data {
+        width: 40%;
     }
 }
 
