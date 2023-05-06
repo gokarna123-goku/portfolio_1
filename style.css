@@ -651,8 +651,15 @@ nav.fixed{
         padding: 30px 60px;
     }
     .contact_data {
-        width: 40%;
+        width: 45%;
     }
+    .form_section {
+        width: 50%;
+    }
+}
+/* for max-width 915px */
+@media screen and ( max-width: 915px ) {
+    
 }
 
 
