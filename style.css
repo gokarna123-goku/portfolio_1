@@ -619,7 +619,7 @@ nav.fixed{
     }
 
     .hero_section {
-        padding: 30px 60px;
+        padding: 30px;
     }
     .fullname {
         font-size: 3.1rem;
@@ -628,10 +628,10 @@ nav.fixed{
         height: 80vh;
     }
     .about_section {
-        padding: 30px 60px;
+        padding: 30px;
     }
     .service_section {
-        padding: 30px 60px;
+        padding: 30px;
         flex-wrap: wrap; 
         text-align: center;
     }
@@ -648,7 +648,7 @@ nav.fixed{
         width: 420px;
     }
     .project_section {
-        padding: 30px 60px;
+        padding: 30px;
     }
     .projects_box {
         gap: 2.5rem;
@@ -657,7 +657,7 @@ nav.fixed{
         width: 370px;
     }
     .contact_section {
-        padding: 30px 60px;
+        padding: 30px;
     }
     .contact_data {
         width: 45%;
@@ -668,6 +668,12 @@ nav.fixed{
 }
 /* for max-width 915px */
 @media screen and ( max-width: 915px ) {
+    nav {
+        padding: 20px 30px;
+    }
+    nav.fixed {
+        padding: 20px 30px;
+    }
     nav ul{
         position: fixed;
         width: 300px;
@@ -675,30 +681,77 @@ nav.fixed{
         background: rgba(31, 31, 31, 0.99);
         backdrop-filter: blur(7.5px);
         -webkit-backdrop-filter: blur(7.5px);
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        gap: 1.5rem;
         top: 0px;
         left: -100%;
         text-align: center;
         transition: all 0.68s ease-out;
+        border-radius: 0px;
         z-index: 9999;
     }
     nav li{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: block;
     }
     #toggleIcon{
         display: block;
     }
     nav a{
-        font-size: 1.5rem;
+        font-size: 1.8rem !important;
         font-weight: 600;
     }
     nav ul.showNavbar{
         left: 0;
+    }
+    .hero_section {
+        padding: 30px;
+    }
+    .fullname {
+        font-size: 3.1rem;
+    }
+    .img_section {
+        height: 80vh;
+    }
+    .about_section {
+        padding: 30px;
+    }
+    .service_section {
+        padding: 30px;
+        flex-wrap: wrap; 
+        text-align: center;
+    }
+    .service_data {
+        width: 100%;
+    }
+    .services_section {
+        width: 100%;
+        justify-content: center;
+        text-align: start;
+        gap: 2.0rem;
+    }
+    .service_box {
+        width: 420px;
+    }
+    .project_section {
+        padding: 30px;
+    }
+    .projects_box {
+        gap: 2.5rem;
+    }
+    .project_card {
+        width: 370px;
+    }
+    .contact_section {
+        padding: 30px;
+    }
+    .contact_data {
+        width: 45%;
+    }
+    .form_section {
+        width: 50%;
     }
 }
 
