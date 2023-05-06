@@ -602,7 +602,28 @@ nav.fixed{
 /* Responsive to all Devices */
 /* for max-width 1024px */
 @media screen and ( max-width: 1024px ) {
-    
+    nav {
+        padding: 20px 60px;
+    }
+    .hero_section {
+        padding: 30px 60px;
+    }
+    .fullname {
+        font-size: 3.1rem;
+    }
+    .img_section {
+        height: 80vh;
+    }
+    .about_section {
+        padding: 30px 60px;
+    }
+    .service_section {
+        padding: 30px 60px;
+        flex-wrap: wrap;
+    }
+    .service_data {
+        width: 100%;
+    }
 }
 
 
